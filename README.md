@@ -1,0 +1,2 @@
+# pyro_gmmvae
+A VAE implemented in Pyro with a Gaussian Mixture Model specifying the prior or latent variables. The Gaussian Mixture prior encourages natural clustering of the latent space according to the classes of the data. It also permits the generation of a desired class after training, since we can manually select which Gaussian component to sample from in order to generate a sample from p(x|z).
